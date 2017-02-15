@@ -1,3 +1,4 @@
+import { CarouselModule } from 'ng2-bootstrap/carousel';
 import { routing } from './app.routing';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -29,7 +30,8 @@ import { PopProdComponent } from './pop-prod/pop-prod.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    routing
+    routing,
+    CarouselModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
