@@ -1,3 +1,4 @@
+import { ProductService } from './products/product.service';
 import { CarouselModule } from 'ng2-bootstrap/carousel';
 import { routing } from './app.routing';
 import { BrowserModule } from '@angular/platform-browser';
@@ -11,8 +12,9 @@ import { TopSliderComponent } from './top-slider/top-slider.component';
 import { HomeComponent } from './home.component';
 import { FooterComponent } from './shared/footer.component';
 import { NewsLetterComponent } from './shared/news-letter.component';
-import { CategoriesComponent } from './categories/categories.component';
-import { PopProdComponent } from './pop-prod/pop-prod.component';
+import { ProductsComponent } from './products/products.component';
+import { ProductListComponent } from './products/product-list/product-list.component';
+import { ProductItemComponent } from './products/product-list/product-item.component';
 
 @NgModule({
   declarations: [
@@ -23,8 +25,9 @@ import { PopProdComponent } from './pop-prod/pop-prod.component';
     FooterComponent,
     FooterComponent,
     NewsLetterComponent,
-    CategoriesComponent,
-    PopProdComponent
+    ProductsComponent,
+    ProductListComponent,
+    ProductItemComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +36,7 @@ import { PopProdComponent } from './pop-prod/pop-prod.component';
     routing,
     CarouselModule.forRoot()
   ],
-  providers: [],
+  providers: [ProductService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
