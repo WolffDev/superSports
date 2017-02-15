@@ -1,0 +1,30 @@
+.carousel-indicators {
+	li {
+		width: 13px;
+		height: 13px;
+		margin: 0 5px 0;
+		border: 2px solid #fff;
+	}
+	.active {
+		margin: 0 5px 0;
+		width: 13px;
+		height: 13px;
+	}
+}
+.carousel-inner{
+	max-height: 600px;
+	img {
+		width: 100%;
+		object-fit: cover;
+
+	}
+	.carousel-caption {
+		right: initial;
+		left: 0;
+		top: 50px;
+		bottom: initial;
+		text-align: initial;
+		text-shadow: none;
+		background-color: rgba(0,0,0,.5);
+	}
+}
