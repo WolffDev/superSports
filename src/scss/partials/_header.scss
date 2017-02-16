@@ -1,0 +1,42 @@
+
+
+.top-menu {
+	border-top: 1px solid $lightgrey;
+	margin-top: 20px;
+	ul {
+		margin: 0;
+		padding: 0;
+		li {
+			list-style: none;
+			display: inline-block;
+			a {
+				display: inline-block;
+				text-transform: uppercase;
+				padding: 10px 30px 10px 0;
+				color: $grey;
+				@include global-font(16px);
+				&:hover {
+					color: $orange;
+					cursor: pointer;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+	.header-search {
+		padding: 10px 0;
+		input {
+			border: none;
+			height: 30px;
+			padding-left: 10px;
+			&:focus, &:active {
+				border: none;
+				outline: none;
+			}
+		}
+		span {
+			font-size: 18px;
+			top: 5px;
+		}
+	}
+}

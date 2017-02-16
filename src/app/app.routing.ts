@@ -7,7 +7,7 @@ import { RouterModule, Routes } from '@angular/router';
 const APP_ROUTES: Routes = [
 	{ path: '', component: HomeComponent },
 	{ path: 'product/:id', component: ProductDetailComponent },
-	{ path: 'contact', component: ContactComponent }
+	{ path: 'support', component: ContactComponent }
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(APP_ROUTES);

@@ -1,8 +1,40 @@
 <div class="container">
-	<div class="row">
-		<ul>
-			<li><a [routerLink]="['/']">Home</a></li>
-			<li><a [routerLink]="['/contact']">Contact</a></li>
-		</ul>
-	</div>
+	<header>
+		<div class="row">
+			<div class="col-md-6 col-sm-12">
+				<img src="http://www.placehold.it/350x50" alt="">
+			</div>
+			<div class="col-md-6 hidden-sm hidden-xs">
+				<div class="page-details pull-right text-right">
+					<a href="tel:4522660077">+45 22660077</a>
+					<a href="mailto:lorem@ipsum.com">LOREM@IPSUM.com</a>
+					<span class="small-cart-info">
+						<span class="small-cart-curency">$</span>
+						<span class="small-cart-price">99.54</span>
+						<span class="small-cart-title">CHECKOUT</span>
+					</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="row top-menu">
+			<div class="col-md-8">
+				<ul>
+					<li><a [routerLink]="['/']">home</a></li>
+					<li><a href="">men</a></li>
+					<li><a href="">woman</a></li>
+					<li><a href="">kids</a></li>
+					<li><a href="">sale</a></li>
+					<li><a href="">about us</a></li>
+					<li><a [routerLink]="['/support']">support</a></li>
+				</ul>
+			</div>
+			<div class="col-md-4 pull-right text-right header-search">
+				<label for="header-search">
+					<span class="glyphicon glyphicon-search"></span>
+				</label>
+				<input type="text" placeholder="Search..." id="header-seach">
+			</div>
+		</div>
+	</header>
 </div>

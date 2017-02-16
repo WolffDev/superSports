@@ -1,0 +1,8 @@
+@mixin global-font($font-size: 16px, $line-height: 1.5, $font-weight: 400) {
+	font-size: $font-size;
+	line-height: $line-height;
+	$font-weight: 400;
+}
+body {
+	font-family: 'PT Sans', arial;
+}

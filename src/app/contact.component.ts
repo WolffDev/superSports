@@ -28,7 +28,7 @@ export class ContactComponent implements OnInit {
 
   onSubmit() {
     console.log(this.contactForm.value);
-    // this.contactForm.reset();
+    this.contactForm.reset();
     // this.router.navigate(['/']);
   }
 
