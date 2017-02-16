@@ -1,6 +1,17 @@
-.btn {
-
-}
 .btn-link {
-
+	padding: 8px 20px;
+	color: $white;
+	background-color: $orange;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: .2s all;
+	&:hover,
+	&:active,
+	&:focus {
+		background-color: darken($orange, 10%);
+		color: $white;
+		text-decoration: none;
+		outline: none;
+		transition: .2s all;
+	}
 }
