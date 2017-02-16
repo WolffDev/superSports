@@ -1,14 +1,17 @@
-<div class="container">
-	<header>
-		<div class="row">
+<header>
+	<div class="container">
+		<div class="row top-image">
 			<div class="col-md-6 col-sm-12">
-				<img src="http://www.placehold.it/350x50" alt="">
+				<a [routerLink]="['/']">
+					<img src="assets/images/superSports.png" alt="">
+				</a>
 			</div>
 			<div class="col-md-6 hidden-sm hidden-xs">
-				<div class="page-details pull-right text-right">
-					<a href="tel:4522660077">+45 22660077</a>
-					<a href="mailto:lorem@ipsum.com">LOREM@IPSUM.com</a>
+				<div class="page-details">
+					<a href="tel:4522660077"><span class="glyphicon glyphicon-earphone"></span> +45 22660077</a>
+					<a href="mailto:lorem@ipsum.com"><span class="glyphicon glyphicon-envelope"></span> LOREM@IPSUM.com</a>
 					<span class="small-cart-info">
+						<span class="glyphicon glyphicon-shopping-cart"></span>
 						<span class="small-cart-curency">$</span>
 						<span class="small-cart-price">99.54</span>
 						<span class="small-cart-title">CHECKOUT</span>
@@ -20,13 +23,13 @@
 		<div class="row top-menu">
 			<div class="col-md-8">
 				<ul>
-					<li><a [routerLink]="['/']">home</a></li>
+					<li><a [routerLink]="['/']" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">home</a></li>
 					<li><a href="">men</a></li>
 					<li><a href="">woman</a></li>
 					<li><a href="">kids</a></li>
 					<li><a href="">sale</a></li>
 					<li><a href="">about us</a></li>
-					<li><a [routerLink]="['/support']">support</a></li>
+					<li><a [routerLink]="['/support']" routerLinkActive="active-link">support</a></li>
 				</ul>
 			</div>
 			<div class="col-md-4 pull-right text-right header-search">
@@ -36,5 +39,6 @@
 				<input type="text" placeholder="Search..." id="header-seach">
 			</div>
 		</div>
-	</header>
-</div>
+	</div>
+</header>
+<div class="header-overlay"></div>

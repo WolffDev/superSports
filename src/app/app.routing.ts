@@ -5,9 +5,9 @@ import { HomeComponent } from './home.component';
 import { RouterModule, Routes } from '@angular/router';
 
 const APP_ROUTES: Routes = [
-	{ path: '', component: HomeComponent },
+	{ path: '', component: HomeComponent, pathMatch: 'full' },
 	{ path: 'product/:id', component: ProductDetailComponent },
-	{ path: 'support', component: ContactComponent }
+	{ path: 'support', component: ContactComponent, pathMatch: 'full' }
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(APP_ROUTES);
