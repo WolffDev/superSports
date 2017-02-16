@@ -15,6 +15,7 @@ import { NewsLetterComponent } from './shared/news-letter.component';
 import { ProductsComponent } from './products/products.component';
 import { ProductListComponent } from './products/product-list/product-list.component';
 import { ProductItemComponent } from './products/product-list/product-item.component';
+import { ProductDetailComponent } from './products/product-detail/product-detail.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ProductItemComponent } from './products/product-list/product-item.compo
     NewsLetterComponent,
     ProductsComponent,
     ProductListComponent,
-    ProductItemComponent
+    ProductItemComponent,
+    ProductDetailComponent
   ],
   imports: [
     BrowserModule,

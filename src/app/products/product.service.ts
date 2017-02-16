@@ -126,4 +126,8 @@ export class ProductService {
     return this.products;
   }
 
+  getProduct(id: number) {
+    return this.products[id];
+  }
+
 }
