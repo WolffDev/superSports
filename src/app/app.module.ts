@@ -1,9 +1,10 @@
+import { AlertModule } from 'ng2-bootstrap/alert';
 import { ProductService } from './products/product.service';
 import { CarouselModule } from 'ng2-bootstrap/carousel';
 import { routing } from './app.routing';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
@@ -38,7 +39,9 @@ import { ContactComponent } from './contact.component';
     FormsModule,
     HttpModule,
     routing,
-    CarouselModule.forRoot()
+    CarouselModule.forRoot(),
+    AlertModule.forRoot(),
+    ReactiveFormsModule
   ],
   providers: [ProductService],
   bootstrap: [AppComponent]

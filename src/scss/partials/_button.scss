@@ -14,4 +14,9 @@
 		outline: none;
 		transition: .2s all;
 	}
+	&[disabled] {
+		background-color: $orange;
+		color: $grey;
+		cursor: not-allowed;
+	}
 }
