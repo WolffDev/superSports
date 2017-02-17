@@ -1,0 +1,31 @@
+.popular-products a:hover {
+	text-decoration: none;
+}
+
+.product-item-wrap {
+	padding-bottom: 25px;
+	a {
+		width: 100%;
+		display: inline-block;
+	}
+}
+
+.product-item {
+	border: 1px solid #eee;
+	img {
+		width: 100%;
+		object-fit: cover;
+		border-bottom: 1px solid #eee;
+		padding: 30px 0 45px;
+	}
+	h4, p {
+		margin: 0;
+		padding: 10px 15px 3px;
+		color: $grey;
+	}
+	.product-extra {
+		margin: 5px 15px;
+		border-top: 1px solid #eee;
+		padding: 10px 0;
+	}
+}
