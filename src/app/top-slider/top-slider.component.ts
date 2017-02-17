@@ -22,33 +22,38 @@ export class TopSliderComponent {
     this.slides.push(
       {
         image: "assets/images/slider1_opt.jpg",
-        heading: "slide 1",
+        heading: "Right is Pink. Left is Blue",
         text: "asasd asd  asdfkjhsdf sdfhjksf sdfkljs sdf sdf sf",
-        link: "http://www.google.com"
+        link: "http://www.google.com",
+        linkText: "Google.com"
       },
       {
         image: "assets/images/slider2_opt.jpg",
         heading: "slide 2",
         text: "asasd asd  asdfkjhsdf sdfhjksf sdfkljs sdf sdf sf",
-        link: "http://www.google.com"
+        link: "http://www.google.com",
+        linkText: "Google.com"
       },
       {
         image: "assets/images/slider3_opt.jpg",
         heading: "slide 3",
         text: "asasd asd  asdfkjhsdf sdfhjksf sdfkljs sdf sdf sf",
-        link: "http://www.google.com"
+        link: "http://www.google.com",
+        linkText: "Google.com"
       },
       {
         image: "assets/images/slider4_opt.jpg",
         heading: "slide 4",
         text: "asasd asd  asdfkjhsdf sdfhjksf sdfkljs sdf sdf sf",
-        link: "http://www.google.com"
+        link: "http://www.google.com",
+        linkText: "Google.com"
       },
       {
         image: "assets/images/slider5_opt.jpg",
         heading: "slide 5",
         text: "asasd asd  asdfkjhsdf sdfhjksf sdfkljs sdf sdf sf",
-        link: "http://www.google.com"
+        link: "http://www.google.com",
+        linkText: "Google.com"
       }
     )
   }

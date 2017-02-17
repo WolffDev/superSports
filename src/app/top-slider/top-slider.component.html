@@ -1,10 +1,10 @@
 <carousel [interval]="intervalNumber" [noWrap]="noWrapSlides" ([activeSlide])="activeSlideIndex">
   <slide *ngFor="let slide of slides; let index=index">
     <img [src]="slide.image" alt="">
-    <div class="carousel-caption">
-      <h4>{{ slide.heading }}</h4>
+    <div class="carousel-caption hidden-xs">
+      <h1>{{ slide.heading }}</h1>
       <p>{{ slide.text }}</p>
-      <a [href]="slide.link" target="_blank">test</a>
+      <a [href]="slide.link" target="_blank" class="btn-link">{{ slide.linkText }}</a>
     </div>
   </slide>
 </carousel>
