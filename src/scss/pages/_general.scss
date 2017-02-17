@@ -1,0 +1,5 @@
+body {
+	font-family: 'PT Sans', arial;
+	color: $grey;
+	@include global-font();
+}
