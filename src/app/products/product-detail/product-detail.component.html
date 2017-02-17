@@ -1,5 +1,51 @@
-<p>
-  {{ selectedProduct?.name }}
-  <br>
-  {{ selectedProduct?.price }}
-</p>
+<div class="single-product">
+  <div class="container">
+      <div class="col-sm-12 col-md-6">
+        <img src="{{ selectedProduct.imagePath[0] }}" alt="" class="big-img">
+        <div class="small-images">
+          <img src="{{ selectedProduct.imagePath[0] }}" alt="">
+          <img src="{{ selectedProduct.imagePath[1] }}" alt="">
+          <img src="{{ selectedProduct.imagePath[2] }}" alt="">
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <h3 id="product-title">{{ selectedProduct.name }}</h3>
+        
+        <div class="row">
+          <div class="col-xs-6">
+            <img id="brand-image"src="{{ selectedProduct.details.brand.imagePath }}" alt="">
+          </div>
+          <div class="col-xs-6 text-right">
+            <span id="product-price">kr {{ selectedProduct.price }}</span>
+          </div>
+        </div>
+
+        <div class="size-detail">
+          <div>
+            <p>Size</p>
+            <select>
+              <option value="{{ selectedProduct.details.variations[0] }}">{{ selectedProduct.details.variations[0] }}</option>
+              <option value="{{ selectedProduct.details.variations[1] }}">{{ selectedProduct.details.variations[1] }}</option>
+              <option value="{{ selectedProduct.details.variations[2] }}">{{ selectedProduct.details.variations[2] }}</option>
+              </select>
+            </div>
+            <div class="amount">
+              <p>Amount</p>
+              <input type="" name="" value="">
+            </div>
+        </div>
+
+        <div class="btn-link">BUY NOW</div>
+
+      </div>
+
+  </div>
+  <div class="container product-tabs">
+    <tabset>
+      <tab heading="Description">{{ selectedProduct.details.description }}</tab>
+      <tab heading="Shipping">Nothing to see here, just move along</tab>
+      <tab heading="Sizing">{{ selectedProduct.details.sizeText }}</tab>
+    </tabset>
+  </div>
+
+</div>

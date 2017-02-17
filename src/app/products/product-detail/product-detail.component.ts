@@ -32,4 +32,5 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
     this.subscription.unsubscribe();
   }
 
+
 }

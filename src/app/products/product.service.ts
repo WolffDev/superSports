@@ -16,7 +16,7 @@ export class ProductService {
       description: 'Long description here, for the detail page!',
       brand: {
         name: 'asics',
-        imagePath:'http://logok.org/wp-content/uploads/2015/07/Asics-logo-logotype-1024x768.png'
+        imagePath:'../assets/images/products/brands/asics.png'
       },
       sizeText: 'Some text about sizes and maybe a size guide',
       variations: ['EU 40 BLACK', 'EU 41 BLACK', 'EU 45 BLACK']
@@ -30,7 +30,7 @@ export class ProductService {
       description: 'Long description here, for the detail page!',
       brand: {
         name: 'asics',
-        imagePath:'http://logok.org/wp-content/uploads/2015/07/Asics-logo-logotype-1024x768.png'
+        imagePath:'../assets/images/products/brands/asics.png'
       },
       sizeText: 'Some text about sizes and maybe a size guide',
       variations: ['EU 40 BLACK', 'EU 41 BLACK', 'EU 45 BLACK']
@@ -44,7 +44,7 @@ export class ProductService {
       description: 'Long description here, for the detail page!',
       brand: {
         name: 'asics',
-        imagePath:'http://logok.org/wp-content/uploads/2015/07/Asics-logo-logotype-1024x768.png'
+        imagePath:'../assets/images/products/brands/asics.png'
       },
       sizeText: 'Some text about sizes and maybe a size guide',
       variations: ['EU 40 BLACK', 'EU 41 BLACK', 'EU 45 BLACK']
@@ -58,7 +58,7 @@ export class ProductService {
       description: 'Long description here, for the detail page!',
       brand: {
         name: 'asics',
-        imagePath:'http://logok.org/wp-content/uploads/2015/07/Asics-logo-logotype-1024x768.png'
+        imagePath:'../assets/images/products/brands/asics.png'
       },
       sizeText: 'Some text about sizes and maybe a size guide',
       variations: ['EU 40 BLACK', 'EU 41 BLACK', 'EU 45 BLACK']
@@ -72,7 +72,7 @@ export class ProductService {
       description: 'Long description here, for the detail page!',
       brand: {
         name: 'asics',
-        imagePath:'http://logok.org/wp-content/uploads/2015/07/Asics-logo-logotype-1024x768.png'
+        imagePath:'../assets/images/products/brands/asics.png'
       },
       sizeText: 'Some text about sizes and maybe a size guide',
       variations: ['EU 40 BLACK', 'EU 41 BLACK', 'EU 45 BLACK']
@@ -86,7 +86,7 @@ export class ProductService {
       description: 'Long description here, for the detail page!',
       brand: {
         name: 'asics',
-        imagePath:'http://logok.org/wp-content/uploads/2015/07/Asics-logo-logotype-1024x768.png'
+        imagePath:'../assets/images/products/brands/asics.png'
       },
       sizeText: 'Some text about sizes and maybe a size guide',
       variations: ['EU 40 BLACK', 'EU 41 BLACK', 'EU 45 BLACK']
@@ -100,7 +100,7 @@ export class ProductService {
       description: 'Long description here, for the detail page!',
       brand: {
         name: 'asics',
-        imagePath:'http://logok.org/wp-content/uploads/2015/07/Asics-logo-logotype-1024x768.png'
+        imagePath:'../assets/images/products/brands/asics.png'
       },
       sizeText: 'Some text about sizes and maybe a size guide',
       variations: ['EU 40 BLACK', 'EU 41 BLACK', 'EU 45 BLACK']
@@ -114,7 +114,7 @@ export class ProductService {
       description: 'Long description here, for the detail page!',
       brand: {
         name: 'asics',
-        imagePath:'http://logok.org/wp-content/uploads/2015/07/Asics-logo-logotype-1024x768.png'
+        imagePath:'../assets/images/products/brands/asics.png'
       },
       sizeText: 'Some text about sizes and maybe a size guide',
       variations: ['EU 40 BLACK', 'EU 41 BLACK', 'EU 45 BLACK']

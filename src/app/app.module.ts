@@ -1,3 +1,4 @@
+import { TabsModule } from 'ng2-bootstrap/tabs';
 import { RatingModule } from 'ng2-bootstrap/rating';
 import { AlertModule } from 'ng2-bootstrap/alert';
 import { ProductService } from './products/product.service';
@@ -43,6 +44,7 @@ import { ContactComponent } from './contact.component';
     CarouselModule.forRoot(),
     AlertModule.forRoot(),
     RatingModule.forRoot(),
+    TabsModule.forRoot(),
     ReactiveFormsModule
   ],
   providers: [ProductService],
