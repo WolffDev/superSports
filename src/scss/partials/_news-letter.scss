@@ -1,0 +1,26 @@
+.news-letter {
+	min-height: 100px;
+	display: flex;
+	align-items: center;
+	background-color: $lightorange;
+	.wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		h3 {
+			color: #fff;
+		}
+		input {
+			height: 44px;
+			border: none;
+			outline: none;
+			border: none;
+			color: $orange;
+			padding-left: 15px;
+			width: 250px;
+			&:focus {
+				outline: none;
+			}
+		}
+	}
+}
