@@ -1,3 +1,4 @@
+import { RatingModule } from 'ng2-bootstrap/rating';
 import { AlertModule } from 'ng2-bootstrap/alert';
 import { ProductService } from './products/product.service';
 import { CarouselModule } from 'ng2-bootstrap/carousel';
@@ -41,6 +42,7 @@ import { ContactComponent } from './contact.component';
     routing,
     CarouselModule.forRoot(),
     AlertModule.forRoot(),
+    RatingModule.forRoot(),
     ReactiveFormsModule
   ],
   providers: [ProductService],

@@ -4,6 +4,9 @@
 
 .product-item-wrap {
 	padding-bottom: 25px;
+	a:not(.btn-link) {
+		color: $orange;
+	}
 	a {
 		width: 100%;
 		display: inline-block;
